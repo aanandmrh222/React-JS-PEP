@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Bites</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+
+        header {
+            background-color: #ff5722;
+            color: white;
+            padding: 1rem 2rem;
+            /* text-align: center; */
+            display: flex;
+        }
+
+        nav {
+            margin-left: auto;
+            display: flex;
+            justify-content: center;
+            background-color: #ff7043;
+            padding: 0.5rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            background-image: url('https://b.zmtcdn.com/data/pictures/7/20611507/380da5afdf0dc28472430ee48047e8e4.jpg?fit=around|960:500&crop=960:500;*,*');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 5rem 1rem;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin: 1rem 0 0;
+        }
+
+        .section {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .section h2 {
+            color: #ff5722;
+            margin-bottom: 1rem;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .card h3 {
+            margin: 1rem;
+            color: #333;
+        }
+
+        .card p {
+            margin: 0 1rem 1rem;
+            color: #666;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Delicious Bites</h1>
+        <!-- <p>Your gateway to the world of flavors</p> -->
+        <nav>
+            <center>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#contact">Contact</a>
+        </center>
+        </nav>
+    </header>
+
+        
+
+    <div class="hero">
+        <h1>Welcome to Delicious Bites</h1>
+        <p>Explore a variety of dishes from around the globe</p>
+    </div>
+
+    <section class="section" id="about">
+        <h2>About Us</h2>
+        <p>At Delicious Bites, we believe in serving happiness through food. Whether you love savory delights or sweet treats, we have something for everyone.</p>
+    </section>
+
+    <section class="section" id="menu">
+        <h2>Our Menu</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="https://content.jdmagicbox.com/comp/def_content/pizza_outlets/default-pizza-outlets-13.jpg" alt="Pizza">
+                <h3>Pizza</h3>
+                <p>Freshly baked with the finest ingredients.</p>
+            </div>
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfPHnSzwK4Hlo5taS9JO36XX03MRdcNEu0yw&s" alt="Burger">
+                <h3>Burger</h3>
+                <p>Juicy and flavorful, a classic favorite.</p>
+            </div>
+            <div class="card">
+                <img src="https://assets.epicurious.com/photos/5988e3458e3ab375fe3c0caf/1:1/w_3607,h_3607,c_limit/How-to-Make-Chicken-Alfredo-Pasta-hero-02082017.jpg" alt="Pasta">
+                <h3>Pasta</h3>
+                <p>A taste of Italy in every bite.</p>
+            </div>
+            <div class="card">
+                <img src="https://nutricia.com.au/fortisip/wp-content/uploads/sites/8/2020/09/Forticreme-Chocolate-Chocolate-Layered-Dessert-1-scaled.jpeg" alt="Dessert">
+                <h3>Desserts</h3>
+                <p>Indulge in our sweet creations.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or want to book a table? Reach out to us at <a href="mailto:info@deliciousbites.com">info@deliciousbites.com</a>.</p>
+    </section>
+
+    <footer>
+        <p>&copy; Delicious Bites. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+    
